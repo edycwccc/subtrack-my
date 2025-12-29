@@ -301,6 +301,18 @@ export default function Home() {
           )}
         </section>
 
+        <div className="mt-8 flex flex-col items-center justify-between gap-4 rounded-2xl border border-white/15 bg-white/5 p-4 backdrop-blur sm:flex-row">
+          <div className="text-xs text-white/60">Enjoying SubTrack MY?</div>
+          <a
+            href="https://www.buymeacoffee.com/edycwccc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full border border-fuchsia-500/30 bg-gradient-to-br from-white/10 to-white/5 px-5 py-2 text-sm font-medium text-white shadow-lg shadow-fuchsia-600/20 backdrop-blur transition hover:scale-105 hover:border-fuchsia-400/50 hover:bg-white/10"
+          >
+            Buy me a Teh C ☕
+          </a>
+        </div>
+
         <button
           onClick={() => setModalOpen(true)}
           aria-label="Add subscription"
